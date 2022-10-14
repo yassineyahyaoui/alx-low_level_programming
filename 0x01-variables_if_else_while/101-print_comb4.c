@@ -8,7 +8,6 @@ int main(void)
 
 {
 int number_left, number_mid, number_right;
-
 for (number_left = 48; number_left <= 57; number_left++)
 {
 
