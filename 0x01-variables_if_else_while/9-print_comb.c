@@ -7,14 +7,14 @@
 int main(void)
 
 {
-char number;
+int number;
 
 
-for (number = '0'; number <= '9'; number++)
+for (number = 48; number <= 57; number++)
 {
 putchar(number);
 
-if (number == '9')
+if (number == 57)
 {
 break;
 }
