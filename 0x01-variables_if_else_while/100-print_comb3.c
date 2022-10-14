@@ -20,13 +20,16 @@ if (number_left >= number_right)
 {
 continue;
 }
-
 else
 {
 putchar(number_left);
 putchar (number_right);
 
-if ((number_left != 56) && (number_right != 57))
+if ((number_left == 56) && (number_right == 57))
+{
+break;
+}
+else
 {
 putchar(',');
 }
